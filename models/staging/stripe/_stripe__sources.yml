@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: stripes
-    database: tfernandez_raw  
-    schema: stripes  
+    database: tfernandez_raw
+    schema: stripes
     tables:
       - name: payments

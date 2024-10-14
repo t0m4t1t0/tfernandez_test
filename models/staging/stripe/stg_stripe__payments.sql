@@ -8,4 +8,4 @@ select
     amount / 100 as amount,
     created as created_at
 
-from {{ source('stripes', 'payments') }}
+from tfernandez_raw.stripe.payments

@@ -7,5 +7,16 @@ models:
         tests:
           - unique
           - not_null
-              
+  - name: stg_jaffle_shop__orders
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['shipped','completed','return_pending']          
+          
+
               
